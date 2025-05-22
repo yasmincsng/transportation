@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Philippine Smart Bus</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <!-- External CSS file -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="page1.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <style>
+       #hero {
+           background-image: url('bus-cv.jpeg');
+           background-size: cover;
+           background-position: center;
+           color: white;
+           padding: 100px 0;
+           text-align: center;
+           position: relative;
+       }
+       #hero::before {
+           content: '';
+           position: absolute;
+           top: 0;
+           left: 0;
+           right: 0;
+           bottom: 0;
+           background-color: rgba(0, 0, 0, 0.5);
+       }
+       #hero .container {
+           position: relative;
+           z-index: 1;
+       }
+   </style>
+</head>
+<body>
+   <nav class="top-nav">
+       <div class="container">
+           <div class="nav-brand">
+               <a href="home.html"><img src="logo.png" alt="Trendy Logo" class="logo"></a>
+               <span>TRENDY</span>
+           </div>
+           <div class="nav-links">
+               <a href="aboutus.html" class="nav-link"><i class="fas fa-info-circle"></i> About Us</a>
+               <div class="dropdown-menu">
+                   <a href="#categories"><i class="fas fa-th-large"></i> Categories <i class="fas fa-chevron-down"></i></a>
+                   <div class="dropdown-content">
+                       <a href="communication.html"><i class="fas fa-comments"></i> Communication</a>
+                       <a href="security.html"><i class="fas fa-shield-alt"></i> Security</a>
+                       <a href="health.html"><i class="fas fa-heartbeat"></i> Health</a>
+                       <a href="entertainment.html"><i class="fas fa-film"></i> Entertainment</a>
+                       <a href="transportation.html"><i class="fas fa-car"></i> Transportation</a>
+                       <a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a>
+                   </div>
+               </div>
+               <a href="#feedback" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+           </div>
+       </div>
+   </nav>
+
+   <section id="hero">
+       <div class="container">
+           <h2>Philippine Smart Bus</h2>
+           <div class="author-info">
+               <div class="author-image">
+                   <img src="y.jpg" alt="Author" class="profile-image">
+               </div>
+               <div class="author-name">
+                   <span>Casing, Yasmin T.</span>
+               </div>
+           </div>
+           <div class="back-button">
+               <a href="company.html" class="btn-back"><i class="fas fa-building"></i>Back to Company</a>
+           </div>
+       </div>
+   </section>
+   <div class="page-navigation">
+       <a href="javascript:history.back()" class="nav-button prev">
+           <div class="circle">
+               <i class="fas fa-chevron-left"></i>
+           </div>
+           <div class="text">Previous Topic</div>
+       </a>
+      
+       <a href="Transpo2.html" class="nav-button next">
+           <div class="circle">
+               <i class="fas fa-chevron-right"></i>
+           </div>
+           <div class="text">Next Topic</div>
+       </a>
+   </div>
+   <main>
+       <section id="what" class="product-section">
+           <div class="container">
+               <h2>What is Philippine Smart Bus?</h2>
+               <div class="content-wrapper">
+                   <div class="text-content">
+                       <p>The Philippines' first autonomous bus service, launched in New Clark City, Clark Freeport Zone, and Clark International Airport.</p>
+                       <p>Key features include:</p>
+                       <ul>
+                           <li><strong>Autonomous Operation:</strong> Self-driving technology powered by Japanese systems</li>
+                           <li><strong>Free Rides:</strong> Currently offering complimentary service until fare regulations are established</li>
+                           <li><strong>Smart Technology:</strong> Utilizes Smart Mobility Operation Cloud (SMOC) for efficient operations</li>
+                           <li><strong>Sustainable:</strong> Part of a low-carbon transportation ecosystem</li>
+                       </ul>
+                   </div>
+                   <div class="image-content">
+                       <img src="bus.jpeg" alt="Philippine Smart Bus">
+                       <p class="caption"><a href="https://www.pna.gov.ph/articles/1233128" target="newPage">The Philippine Smart Bus in operation at New Clark City</a></p>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <section id="how" class="product-section alt-bg">
+           <div class="container">
+               <h2>How Does It Work?</h2>
+               <div class="content-wrapper">
+                   <div class="image-content">
+                       <img src="bus-operating.jpeg" alt="Smart Bus Operation">
+                       <p class="caption"><a href="https://pia.gov.ph/private-companies-roll-out-phs-first-self-driving-bus-in-clark/" target="newPage">Smart Bus navigating through Clark Freeport Zone</a></p>
+                   </div>
+                   <div class="text-content">
+                       <p>The Philippine Smart Bus operates through advanced autonomous technology:</p>
+                       <ol>
+                           <li><strong>Last-Mile Service:</strong> Connects key areas within New Clark City and surrounding zones</li>
+                           <li><strong>Demand-Based Dispatch:</strong> Uses SMOC to optimize vehicle deployment based on real-time demand</li>
+                           <li><strong>Integrated Ecosystem:</strong> Works with electric vehicles, e-bikes, and smart infrastructure</li>
+                       </ol>
+                       <p>The system minimizes the number of vehicles needed while maximizing coverage through intelligent routing and scheduling algorithms.</p>
+                   </div>
+               </div>
+               <div class="video-container">
+                   <h3>See It In Action</h3>
+                   <div class="video-wrapper">
+                       <iframe 
+                           width="100%" 
+                           height="450" 
+                           src="https://www.youtube.com/embed/73FgTEchsR8?si=LShoTJBdAAAgYDeX" 
+                           title="Philippine Smart Bus Demonstration" 
+                           frameborder="0" 
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                           allowfullscreen>
+                       </iframe>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <section id="when" class="product-section">
+           <div class="container">
+               <h2>When Was It Introduced?</h2>
+               <div class="content-wrapper">
+                   <div class="text-content">
+                       <p>The Philippine Smart Bus was officially launched on September 10, 2024, with a ribbon-cutting ceremony in New Clark City.</p>
+                       <p>Development timeline:</p>
+                       <ul>
+                           <li><strong>January 2023:</strong> Memorandum of Understanding with NEDO</li>
+                           <li><strong>October 2023:</strong> Agreement signed with BCDA, Zenmov, and MC Metro</li>
+                           <li><strong>September 2024:</strong> Official launch and public demonstration</li>
+                       </ul>
+                       <p>The demonstration program is scheduled to run until June 2025, funded by NEDO and Zenmov.</p>
+                   </div>
+                   <div class="image-content">
+                       <img src="bus-launch.jpeg" alt="Smart Bus Launch">
+                       <p class="caption"><a href="https://www.bcda.gov.ph/news/philippines-first-autonomous-bus-service-launched-clark" target="newPage">Launch ceremony of the Philippine Smart Bus</a></p>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <section id="where" class="product-section alt-bg">
+           <div class="container">
+               <h2>Where Is It Already Implemented?</h2>
+               <div class="content-wrapper">
+                   <div class="image-content">
+                       <img src="bus-route.jpeg" alt="Smart Bus Route">
+                       <p class="caption"><a href="https://www.berthaphil.com/clark-loop" target="newPage">Smart Bus route map in Clark area</a></p>
+                   </div>
+                   <div class="text-content">
+                       <p>Current implementation areas:</p>
+                       <ul>
+                           <li><strong>New Clark City:</strong> Primary deployment area as part of smart city initiative</li>
+                           <li><strong>Clark Freeport Zone:</strong> Connecting business and residential areas</li>
+                           <li><strong>Clark International Airport:</strong> Providing transportation links</li>
+                       </ul>
+                       <p>The service aims to reduce traffic congestion, improve accessibility, and support the development of New Clark City as the Philippines' first sustainable smart city.</p>
+                   </div>
+               </div>
+               <div class="testimonials">
+                   <h3>Official Statements</h3>
+                   <div class="testimonial-grid">
+                       <div class="testimonial">
+                           <p>"The Philippine Smart Bus represents a major leap forward in our transportation infrastructure, combining Japanese technology with our vision for sustainable urban development."</p>
+                           <p class="author">- BCDA Representative</p>
+                       </div>
+                       <div class="testimonial">
+                           <p>"This autonomous bus service demonstrates how smart mobility solutions can transform urban transportation while reducing environmental impact."</p>
+                           <p class="author">- Zenmov, Inc. Spokesperson</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+   </main>
+
+   <footer>
+       <div class="container">
+           <div class="footer-content">
+               <div class="footer-brand">
+                   <img src="Trendy.png" alt="Trendy Logo" class="footer-logo">
+                   <p class="footer-description">Exploring the future through industry innovation.</p>
+               </div>
+              
+               <div class="footer-links">
+                   <div class="link-group">
+                       <h4><i class="fas fa-industry"></i> Industries</h4>
+                       <ul>
+                           <li><a href="health.html"><i class="fas fa-heartbeat"></i> Health Tech</a></li>
+                           <li><a href="security.html"><i class="fas fa-shield-alt"></i> Cybersecurity</a></li>
+                           <li><a href="transportation.html"><i class="fas fa-car"></i> Transportation</a></li>
+                       </ul>
+                   </div>
+                   <div class="link-group-2">
+                       <ul>
+                           <li><a href="communication.html"><i class="fas fa-comments"></i> Communication</a></li>
+                           <li><a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                           <li><a href="entertainment.html"><i class="fas fa-film"></i> Entertainment</a></li>
+                       </ul>
+                   </div>
+                  
+                   <div class="link-group">
+                       <h4><i class="fas fa-building"></i> Company</h4>
+                       <ul>
+                           <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
+                           <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                           <li><a href="#feedback"><i class="fas fa-envelope"></i> Contact</a></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+          
+           <div class="footer-bottom">
+               <div class="copyright">
+                   © 2025 Trendy Info. All rights reserved.
+               </div>
+               <div class="legal-links">
+                   <a href="#">Privacy Policy</a>
+                   <a href="#">Terms of Service</a>
+                   <a href="#">Cookie Policy</a>
+               </div>
+           </div>
+       </div>
+   </footer>
+</body>
+<script src="js/bootstrap.js"></script>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Airbus VoltAir</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <!-- External CSS file -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="page1.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <style>
+       #hero {
+           background-image: url('evtol-background.jpeg');
+           background-size: cover;
+           background-position: center;
+           color: white;
+           padding: 100px 0;
+           text-align: center;
+           position: relative;
+       }
+       #hero::before {
+           content: '';
+           position: absolute;
+           top: 0;
+           left: 0;
+           right: 0;
+           bottom: 0;
+           background-color: rgba(0, 0, 0, 0.5);
+       }
+       #hero .container {
+           position: relative;
+           z-index: 1;
+       }
+   </style>
+</head>
+<body>
+   <nav class="top-nav">
+       <div class="container">
+           <div class="nav-brand">
+               <a href="home.html"><img src="logo.png" alt="Trendy Logo" class="logo"></a>
+               <span>TRENDY</span>
+           </div>
+           <div class="nav-links">
+               <a href="aboutus.html" class="nav-link"><i class="fas fa-info-circle"></i> About Us</a>
+               <div class="dropdown-menu">
+                   <a href="#categories"><i class="fas fa-th-large"></i> Categories <i class="fas fa-chevron-down"></i></a>
+                   <div class="dropdown-content">
+                       <a href="communication.html"><i class="fas fa-comments"></i> Communication</a>
+                       <a href="security.html"><i class="fas fa-shield-alt"></i> Security</a>
+                       <a href="health.html"><i class="fas fa-heartbeat"></i> Health</a>
+                       <a href="entertainment.html"><i class="fas fa-film"></i> Entertainment</a>
+                       <a href="transportation.html"><i class="fas fa-car"></i> Transportation</a>
+                       <a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a>
+                   </div>
+               </div>
+               <a href="#feedback" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+           </div>
+       </div>
+   </nav>
+
+   <section id="hero">
+       <div class="container">
+           <h2>Airbus VoltAir</h2>
+           <div class="author-info">
+               <div class="author-image">
+                   <img src="y.jpg" alt="Author" class="profile-image">
+               </div>
+               <div class="author-name">
+                   <span>Casing, Yasmin T.</span>
+               </div>
+           </div>
+           <div class="back-button">
+               <a href="company.html" class="btn-back"><i class="fas fa-building"></i>Back to Company</a>
+           </div>
+       </div>
+   </section>
+   <div class="page-navigation">
+       <a href="Transpo2.html" class="nav-button prev">
+           <div class="circle">
+               <i class="fas fa-chevron-left"></i>
+           </div>
+           <div class="text">Previous Topic</div>
+       </a>
+      
+       <a href="#" class="nav-button next">
+           <div class="circle">
+               <i class="fas fa-chevron-right"></i>
+           </div>
+           <div class="text">Next Topic</div>
+       </a>
+   </div>
+   <main>
+       <section id="what" class="product-section">
+           <div class="container">
+               <h2>What is Airbus VoltAir?</h2>
+               <div class="content-wrapper">
+                   <div class="text-content">
+                       <p>Airbus VoltAir is an electric vertical take-off and landing (eVTOL) aircraft developed by Airbus for urban mobility.</p>
+                       <p>Key features include:</p>
+                       <ul>
+                           <li><strong>Electric Propulsion:</strong> Uses electric motors with fixed or tilting rotors/propellers</li>
+                           <li><strong>Performance:</strong> 80 km range and 120 km/h speed</li>
+                           <li><strong>Applications:</strong> Passenger transport, eco-tourism, and medical missions</li>
+                           <li><strong>Vertical Capability:</strong> Enables vertical take-off, hovering, and horizontal flight</li>
+                       </ul>
+                   </div>
+                   <div class="image-content">
+                       <img src="ev.jpeg" alt="Airbus VoltAir">
+                       <p class="caption"><a href="https://amprius.com/about/news-and-events/evtol/" target="newPage">The Airbus VoltAir eVTOL aircraft</a></p>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <section id="how" class="product-section alt-bg">
+           <div class="container">
+               <h2>How Does It Work?</h2>
+               <div class="content-wrapper">
+                   <div class="image-content">
+                       <img src="evtol-demonstrate.jpg" alt="VoltAir Operation">
+                       <p class="caption"><a href="https://amprius.com/about/news-and-events/evtol/" target="newPage">VoltAir in flight demonstration</a></p>
+                   </div>
+                   <div class="text-content">
+                       <p>The Airbus VoltAir operates through advanced electric propulsion technology:</p>
+                       <ol>
+                           <li><strong>Power System:</strong> Lithium-ion batteries or other energy storage systems</li>
+                           <li><strong>Flight Control:</strong> Advanced computer systems with pilot input options</li>
+                           <li><strong>Safety Features:</strong> Redundant propulsion and fail-safe landing mechanisms</li>
+                           <li><strong>Navigation:</strong> Advanced sensors and avionics for precise control</li>
+                       </ol>
+                       <p>The aircraft can transition between vertical lift and forward flight modes seamlessly.</p>
+                   </div>
+               </div>
+               <div class="video-container">
+                   <h3>See It In Action</h3>
+                <div class="video-wrapper">
+                    <iframe 
+                        width="100%" 
+                        height="450" 
+                        src="https://www.youtube.com/embed/30MV9Yu2MQw" 
+                        title="Airbus VoltAir Demonstration" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+       </section>
+
+       <section id="when" class="product-section">
+           <div class="container">
+               <h2>When Was It Introduced?</h2>
+               <div class="content-wrapper">
+                   <div class="text-content">
+                       <p>Airbus VoltAir was unveiled as a prototype by Airbus in September 2021.</p>
+                       <p>Development timeline:</p>
+                       <ul>
+                           <li><strong>2021:</strong> Prototype unveiling and initial testing</li>
+                           <li><strong>2023:</strong> Test center construction begins</li>
+                           <li><strong>2025:</strong> Planned FAA certification</li>
+                           <li><strong>2028:</strong> Targeted large-scale use at Los Angeles Olympics</li>
+                       </ul>
+                       <p>The eVTOL market is projected to reach $30 billion by 2030 with a 15.3% growth rate.</p>
+                   </div>
+                   <div class="image-content">
+                       <img src="ev-2021.jpg" alt="VoltAir Prototype">
+                       <p class="caption"><a href="https://www.evengineeringonline.com/amprius-selected-to-power-aibots-aievtol-ecosystem/" target="newPage">Initial prototype unveiling in 2021</a></p>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <section id="where" class="product-section alt-bg">
+           <div class="container">
+               <h2>Where Is It Already Implemented?</h2>
+               <div class="content-wrapper">
+                   <div class="image-content">
+                       <img src="ev-flight.jpg" alt="VoltAir Testing">
+                       <p class="caption"><a href="https://www.techbriefs.com/component/content/article/47860-electric-aircraft-battery-energy-density-breakthrough-for-amprius" target="newPage">VoltAir in flight testing</a></p>
+                   </div>
+                   <div class="text-content">
+                       <p>Current implementation status:</p>
+                       <ul>
+                           <li><strong>Development Phase:</strong> Currently in flight testing, not yet commercially deployed</li>
+                           <li><strong>Future Applications:</strong> Planned for urban passenger transport and medical missions</li>
+                           <li><strong>Infrastructure:</strong> FAA collaborating on vertiport development and airspace management</li>
+                       </ul>
+                       <p>The technology represents a major step forward in sustainable urban air mobility solutions.</p>
+                   </div>
+               </div>
+               <div class="testimonials">
+                   <h3>Industry Perspectives</h3>
+                   <div class="testimonial-grid">
+                       <div class="testimonial">
+                           <p>"VoltAir demonstrates Airbus's commitment to revolutionizing urban transportation through zero-emission aircraft technology."</p>
+                           <p class="author">- Airbus Urban Mobility Spokesperson</p>
+                       </div>
+                       <div class="testimonial">
+                           <p>"The eVTOL market is poised for exponential growth, with Airbus VoltAir positioned as a key player in this emerging sector."</p>
+                           <p class="author">- Aviation Industry Analyst</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+   </main>
+
+   <footer>
+       <div class="container">
+           <div class="footer-content">
+               <div class="footer-brand">
+                   <img src="Trendy.png" alt="Trendy Logo" class="footer-logo">
+                   <p class="footer-description">Exploring the future through industry innovation.</p>
+               </div>
+              
+               <div class="footer-links">
+                   <div class="link-group">
+                       <h4><i class="fas fa-industry"></i> Industries</h4>
+                       <ul>
+                           <li><a href="health.html"><i class="fas fa-heartbeat"></i> Health Tech</a></li>
+                           <li><a href="security.html"><i class="fas fa-shield-alt"></i> Cybersecurity</a></li>
+                           <li><a href="transportation.html"><i class="fas fa-car"></i> Transportation</a></li>
+                       </ul>
+                   </div>
+                   <div class="link-group-2">
+                       <ul>
+                           <li><a href="communication.html"><i class="fas fa-comments"></i> Communication</a></li>
+                           <li><a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                           <li><a href="entertainment.html"><i class="fas fa-film"></i> Entertainment</a></li>
+                       </ul>
+                   </div>
+                  
+                   <div class="link-group">
+                       <h4><i class="fas fa-building"></i> Company</h4>
+                       <ul>
+                           <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
+                           <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                           <li><a href="#feedback"><i class="fas fa-envelope"></i> Contact</a></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+          
+           <div class="footer-bottom">
+               <div class="copyright">
+                   © 2025 Trendy Info. All rights reserved.
+               </div>
+               <div class="legal-links">
+                   <a href="#">Privacy Policy</a>
+                   <a href="#">Terms of Service</a>
+                   <a href="#">Cookie Policy</a>
+               </div>
+           </div>
+       </div>
+   </footer>
+</body>
+<script src="js/bootstrap.js"></script>
+</html>
